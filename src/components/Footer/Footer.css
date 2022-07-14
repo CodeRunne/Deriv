@@ -1,0 +1,114 @@
+.footer {
+    padding-bottom: 1.6rem;
+    width: 100%;
+    margin: 0 auto;
+
+    background-color: #f9fafc;
+}
+
+.footer__wrapper {
+    margin: 0px auto;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.footer__logo__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-align: center;
+    padding: 4rem 0px 2rem;
+}
+
+.footer__logo__wrapper__svg {
+    width: 18.2rem;
+    height: 25px;
+}
+
+.footer__logo__socials {
+    padding: 1.6rem 0px;
+}
+
+.footer__logo__socials a:not(last-child) { margin-right: 1.6rem; }
+
+.footer_logo__socials a svg {
+    margin-left: 1.6rem;
+}
+
+.footer__links__wrapper {
+    padding: 1.25rem 0px 2.4rem;
+    border-bottom: 1px solid var(--color-grey-26);
+    border-top: 2px solid var(--color-grey-26);
+}
+
+.footer__links__container {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-evenly;
+}
+
+.footer__links__title {
+    color: var(--color-black-6);
+    font-weight: bold;
+    font-size: 1.75rem;
+    margin-bottom: .8rem;
+}
+
+.footer__links__items {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    /* width: fit-content;
+    min-width: 100px;
+    margin-right: 40px; */
+}
+
+.footer__link { display: flex; }
+.footer__link:not(:last-child) { margin-bottom: 1.6rem; }
+
+.footer__link a {
+    color: var(--color-black-3);
+    font-size: var(--text-size-s);
+    line-height: 1.5;
+}
+
+
+.footer__link a:hover { color: var(--color-red-3); }
+
+.footer__disclaimer__paragraph {
+    font-size: var(--text-size-xs);
+    margin-top: 2rem;
+    font-weight: normal;
+    font-size: 1.6rem;
+}
+
+.footer__disclaimer__paragraph a {
+    font-weight: bold;
+    color: var(--color-black-3);
+    font-size: var(--text-size-xs);
+    text-decoration: none;
+}
+
+.footer__links__title,
+.footer__disclaimer__paragraph {
+    text-align: left;
+    line-height: 1.5;
+    width: auto;
+}
+
+@media (max-width: 1440px) {
+    .footer__wrapper { max-width: 84%; }
+}
+
+@media (max-width: 1980px) {
+    .footer-wrapper { max-width: 1200px; }
+}

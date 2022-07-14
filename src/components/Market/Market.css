@@ -1,0 +1,44 @@
+.market {
+    padding: 120px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.market > h1 {
+    text-align: center;
+    color: var(--color-black-3);
+    margin-bottom: 40px;
+    /* font-weight: bold;
+    font-size: 6.4rem; */
+    line-height: 8rem;
+    width: 100%;
+}
+
+.market__collection {
+    max-width: 100%;
+}
+
+.carousel {
+    min-height: auto;
+    max-width: 1210px;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel__slider {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    will-change: transform;
+}
+
+.carousel__item {
+    width: 282px;
+    height: auto;
+    margin-right: 24px;
+    position: relative;
+    /* left: 125 */
+}

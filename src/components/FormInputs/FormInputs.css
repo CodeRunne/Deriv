@@ -1,0 +1,134 @@
+.form-group {
+    margin-top: 1.4rem;
+    position: relative;    
+}
+
+.form-check-group {
+    font-weight: normal;
+    line-height: 1px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.form-check-box {
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+.form-check {
+    border: 0px;
+    clip: rect(0px, 0px, 0px, 0px);
+    position: absolute;
+}
+
+.form-check-svg {
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.6rem;
+    background: rgba(255, 255, 255, 0);
+    border: 2px solid var(--color-grey-5);
+    margin-right: 0.8rem;
+}
+
+.form-check-svg svg {
+    fill: none;
+    stroke: var(--color-white);
+    stroke-width: 4px;
+    background-color: var(--color-red);
+    visibility: hidden;
+}
+
+.form-group-inputs {
+    position: relative;
+    border: 1px solid var(--color-grey-5);
+    border-radius: 4px;
+}
+
+.form-group-inputs:hover { border-color: var(--color-grey-1); }
+.form-group-inputs.has_error { border-color: var(--color-red); }
+.form-group-inputs.has_error input ~ label { color: var(--color-red); }
+
+.form-check-input
+
+.form-input {
+    background: none;
+    color: var(--color-black-3);
+    font-size: var(--text-size-s);
+    font-family: inherit;
+    padding: 1rem 1rem 1rem 0.8rem;
+    width: calc(100% - 1.8rem);
+    display: block;
+    border: none;
+    border-radius: 0;
+}
+
+input[type=password]::-ms-reveal,
+input[type=password]::-ms-clear { display: none; }
+
+.form-input:focus { outline: none; }
+
+.form-input::placeholder,
+.form-input::-webkit-input-placeholder,
+.form-input::-moz-placeholder,
+.form-input:-ms-input-placeholder,
+.form-input::-ms-input-placeholder {
+    opacity: 0;
+    display: none;
+    -webkit-transition: opacity 0.25s;
+    -o-transition: opacity 0.25s;
+    transition: opacity 0.25s;
+    padding-left: 0.3rem;
+}
+
+.form-input:focus::-webkit-input-placeholder,
+.form-input:focus::-moz-placeholder,
+.form-input:focus:-ms-input-placeholder,
+.form-input:focus::-ms-input-placeholder,
+.form-input:focus::placeholder { 
+    display: block;
+    opacity: 0.4; 
+}
+
+.form-label {
+    color: var(--color-grey-1);
+    font-size: var(--text-size-xs);
+    position: absolute;
+    pointer-events: none;
+    left: 1.1rem;
+    top: 1.43rem;
+    transition: 0.25s ease all;
+    transform-origin: top left;
+}
+
+.form-input:focus ~ .form-label,
+.form-label.raised-label,
+.form-input:not(:focus):not(:invalid) ~ label {
+    background-color: var(--color-white);
+    -webkit-transform: translate(-4px, -1.8rem) scale(0.76);
+    -ms-transform: translate(-4px, -1.8rem) scale(0.76);
+    transform: translate(-4px, -1.8rem) scale(0.76);
+    padding: 0 4px;
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+}
+
+.form-input:-webkit-autofill ~ .form-label {
+    background-color: var(--color-white);
+    -webkit-transform: translate(0, -1.8rem) scale(0.75);
+    transform: translate(0, -1.8rem) scale(0.75);
+    padding: 0 4px;
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+}
+
+.form-input[style*="background"] ~ #form-submit { right: 32px; }
+
+.form-error {
+    color: var(--color-red);
+    font-size: var(--text-size-xxs);
+    align-self: flex-start;
+    padding-left: 0.8rem;
+}
+
+.form-error { min-height: 1.8rem; }

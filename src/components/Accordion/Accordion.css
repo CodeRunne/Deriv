@@ -1,0 +1,138 @@
+.accordion {
+    width: 100%;
+    border-radius: 6px;
+    background-color: var(--color-white);
+}
+
+.accordion__header {
+    flex-direction: row;
+    height: 56px;
+
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    user-select: none;
+    /* border-bottom: 1px solid var(--color-grey-2); */
+    /* padding: 0px 3.2rem; */
+    /* box-shadow: rgba(195, 195, 195, 0.31) -2px 6px 15px 0px; */
+}
+
+.accordion__header:hover { cursor: pointer; }
+
+.accordion__header p {
+    width: auto;
+    margin-right: auto;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: left;
+    color: var(--color-black-3);
+    line-height: 1.5;
+}
+
+
+.accordion__header img {
+    width: 24px;
+    object-fit: cover;
+    transform: rotate(-180deg);
+    transition: transform 0.25s linear 0s;
+}
+
+.accordion__content {
+    /* overflow: hidden; */
+    transition: height 250ms ease;
+    /* height: 0; */
+}
+
+.accordion__content__container {
+    margin-left: 8px;
+    padding-bottom: 16px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion__content__container p {
+    text-align: left;
+    color: var(--color-grey-5);
+    line-height: 1.5;
+    margin-bottom: 8px;
+    font-weight: normal;
+    font-size: 14px;
+    width: auto;
+}
+
+/* Accordion Content Box */
+.accordion__content__box {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.accordion__content__box:last-of-type { margin-bottom: 2rem; }
+
+.accordion__content__box a {
+    width: 100%;
+    max-width: 33.6rem;
+    position: relative;
+}
+
+/* Accordion Content Box Item */
+.accordion__content__box__item {
+    width: 100%;
+    padding: .8rem 1.6rem;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    -webkit-box-pack: center;
+}
+
+.accordion__content__box__item:hover { background-color: var(--color-grey-30); }
+
+.accordion__content__box__item__image img {
+    width: 32px;
+    height: 32px;
+    margin-right: 1.6rem;
+}
+
+.accordion__content__box__item__content {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content;
+    grid-row-gap: .8rem;
+}
+
+.accordion__content__box__item__content span {
+    text-align: left;
+    color: var(--color-black-3);
+    line-height: 1.14;
+    /* margin-bottom: 0.8rem; */
+    font-weight: bold;
+    font-size: var(--text-size-s);
+    width: 100%;
+    transition: color 0.2s ease 0s;
+}
+
+.accordion__content__box__item__content > p {
+    text-align: left;
+    color: var(--color-grey-5);
+    line-height: 1.5;
+    font-weight: normal;
+    font-size: 1.6rem;
+    width: auto;
+    transition: color 0.2s ease 0s;
+    font-size: var(--text-size-xs);
+}
+
+@media (max-width: 61.9375em) {
+    .accordion__header p { font-size: 18px; }
+    .accordion__content__container > p,
+    .accordion__content__box__item__content span { font-size: 16px; }
+    .accordion__content__box__item__content > p { font-size: 14px; }
+}

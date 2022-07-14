@@ -1,0 +1,60 @@
+.button,
+.button:visited,
+.button:active {
+    height: fit-content;
+    padding: 1.15rem 1.6rem;
+    
+    font-size: 14px;
+    font-weight: bold;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 4px;
+    user-select: none;
+    position: relative;
+    transition: all .25s ease 0s;
+}
+
+.button:hover,
+.button:visited:hover {
+    cursor: pointer;
+}
+
+.button:focus,
+.button:active {
+    outline: none;
+    transform: scale(.95);
+}
+
+/* Button Border */
+.button.primary { 
+    background-color: transparent;
+    border: 2px solid var(--color-red);
+    color: var(--color-red);
+    white-space: nowrap;
+}
+
+/* Border Background */
+.button.secondary {
+    background: var(--color-red) !important;
+    border: 2px solid var(--color-red) !important;
+    color: var(--color-white);
+}
+
+
+/* Button Transparent Background */
+.button.trans {
+    color: var(--white);
+    border: none;
+    background: transparent;
+}
+
+.button.tertiary {
+    border: 2px solid var(--color-grey-1);
+    color: var(--color-black);
+    background: transparent;
+}
+
+.button.tertiary:hover { background-color: rgba(0, 0, 0, 0.08); }

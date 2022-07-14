@@ -1,0 +1,45 @@
+.layout__main {
+    margin-top: 7rem;
+    background-color: var(--color-white);
+    height: 100%;
+    position: relative;
+}
+
+.pageNotFoundContainer {
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 16rem 0px;
+    flex-flow: column wrap;
+}
+
+.pageNotFoundContainer__info { 
+    margin: 16px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pageNotFoundContainer__info > h3,
+.pageNotFoundContainer__info > p {
+    color: var(--color-black-3);
+    font-weight: bold;
+}
+
+.pageNotFoundContainer__info > h3 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+}
+
+.pageNotFoundContainer__info > p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.pageNotFoundContainer__info > button {
+    margin-top: 3rem;
+    text-align: center;
+}
