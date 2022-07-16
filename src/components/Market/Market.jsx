@@ -30,8 +30,8 @@ function Market() {
                           <p color="white" type="paragraph-1" className='text'>Take part in the world’s largest financial market where more than $5 trillion worth of currencies are bought and sold each day.</p>
                           <div className="market__item__wrapper__item__image">
                             <picture>
-                              <source type="image/webp" srcset={`${Forex} 360w, ${Forex1} 440w`} sizes="(min-width: 440px) 440px, 100vw" />
-                              <img width="440" height="456" sizes="(min-width: 440px) 440px, 100vw" src={`${Forex2}`} srcset={`${Forex2} 360w,${Forex3} 440w`} alt="Market Forex" style={{
+                              <source type="image/webp" srcSet={`${Forex} 360w, ${Forex1} 440w`} sizes="(min-width: 440px) 440px, 100vw" />
+                              <img width="440" height="456" sizes="(min-width: 440px) 440px, 100vw" src={`${Forex2}`} srcSet={`${Forex2} 360w,${Forex3} 440w`} alt="Market Forex" style={{
                                     objectFit: 'cover', 
                                     opacity: '1' 
                                   }} 

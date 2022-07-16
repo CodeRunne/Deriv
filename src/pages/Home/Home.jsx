@@ -12,6 +12,7 @@ import Hero from '../../components/Hero/Hero';
 import Testimonials from '../../components/Testimonials/Testimonials';
 import Platforms from '../../components/Platform/Platform';
 import FormSection from '../../components/FormSection/FormSection';
+import P2PSection from '../../components/P2PSection/P2PSection';
 
 function Home() {
   // Page Title
@@ -36,6 +37,9 @@ function Home() {
 
         {/* Testimonials */}
         <Testimonials />
+
+        {/* P2P Section */}
+        <P2PSection />
 
         {/* Form Section */}
         <FormSection />

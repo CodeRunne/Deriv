@@ -5,7 +5,7 @@ import './Platform.css';
 
 function Platforms() {
   return (
-    <section>Platforms</section>
+    <section className="platform">Platforms</section>
   )
 }
 

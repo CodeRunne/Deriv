@@ -14,8 +14,6 @@ function FormSection() {
   const [email, setEmail] = useState('');
   const [checked, setChecked] = useState(false);
 
-  console.log(checked);
-
   return (
     <section className='formSection'>
         <div className="formSection__container">
@@ -38,6 +36,7 @@ function FormSection() {
                                     formid="txtEmail"
                                     value={email}
                                     handleChange={({ target }) => setEmail(target.value) }
+                                    placeholder="example@gmail.com"                      
                                 />
                                     {/*placeholder="example@gmail.com"*/}
                             </div>
@@ -102,7 +101,7 @@ function FormSection() {
 
                     {/* Form Section Link */}
                     <Link to="/app" target="_blank" rel="noopener noreferrer nofollow" className="formSection__link__a">
-                        <h2 size="4rem" width="330px" align="left" color="grey-8" mr="1.2rem" ml="-4rem" position="relative" class="typography">Get a taste of the Deriv experience</h2>
+                        <h2 size="4rem" width="330px" align="left" color="grey-8" mr="1.2rem" ml="-4rem" position="relative" className="typography">Get a taste of the Deriv experience</h2>
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33"><path fill="#FFF" d="M19.166 16.135 8.6 26.72a2.002 2.002 0 0 0 0 2.828c.78.781 2.043.781 2.823 0l11.98-12c.78-.78.78-2.047 0-2.828l-11.98-12a1.994 1.994 0 0 0-2.823 0 2.002 2.002 0 0 0 0 2.828l10.567 10.586z"/></svg>
                     </Link>
                 </div>

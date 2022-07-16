@@ -29,8 +29,6 @@ function Navigation() {
     else if(Y <= 30) setNavOptionButton(false);
   }
 
-  console.log(screenWidth, navOptionButton)
-
   window.addEventListener("scroll", changeNavColor);
 
   return (

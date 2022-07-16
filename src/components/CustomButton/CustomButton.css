@@ -58,3 +58,8 @@
 }
 
 .button.tertiary:hover { background-color: rgba(0, 0, 0, 0.08); }
+
+.button.opq {
+    pointer-events: none;
+    opacity: .32;
+}

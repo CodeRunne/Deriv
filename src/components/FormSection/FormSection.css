@@ -73,7 +73,6 @@
 }
 
 .signup__form {
-    display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
@@ -93,26 +92,24 @@
 .signup__form__wrapper input {
     background: var(--color-grey-8);
     color: var(--color-grey-5);
-    padding: 1rem 1rem 1rem 0.8rem;
     height: 40px;
     width: 100%;
     border: none;
-    border-radius: 4px;
 }
 
-.signup__form__wrapper label {
-    /* color: var(--color-red-1); */
-    color: var(--color-black-3);
-    font-size: var(--text-size-xs);
+.signup__form__wrapper .form-label {
+     /* color: var(--color-red-1); */
+    color: var(--color-black-2) !important;
+    /* font-size: var(--text-size-xs); */
     transition: all 0.25s ease;
 }
 
-.signup__form__wrapper input:valid ~ .signup__form__wrapper label,
+/* .signup__form__wrapper input:valid ~ .signup__form__wrapper label,
 .signup__form__wrapper input:focus ~ .signup__form__wrapper label {
     transform: translate(-0.6rem, -2rem) scale(0.7);
     color: var(--color-black-3);
     background-color: var(--color-white);
-}
+} */
 
 #signup__form__submit__button{
     margin-left: 1rem;
@@ -127,7 +124,7 @@
 
 .formSection__options {
     width: 100%;
-    margin-top: 4rem;
+    margin-top: 4.8rem;
     flex-wrap: wrap;
 }
 

@@ -1,0 +1,40 @@
+.account__note {
+    background-color: rgba(242, 243, 244, 0.56);
+    padding: 0.8em;
+    margin-bottom: 2.5rem;
+    border-radius: 4px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.account__binary__logo { margin-right: 10px; }
+.account__binary__logo svg { vertical-align: middle; }
+
+.account__note__wrapper {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    min-height: 42px;
+}
+
+.account__note__title,
+.account__note__p {
+    color: var(--color-grey-2);
+}
+
+.account__note__title {
+    font-size: var(--text-size-xs);
+    line-height: 1.5;
+}
+
+.account__note__p {
+    font-size: var(--text-size-xxs);
+    margin-top: .4rem;
+    line-height: 18px;
+}
+
+.account__note__title strong,
+.account__note__p strong {
+    font-weight: 900;
+}

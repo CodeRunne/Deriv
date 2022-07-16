@@ -4,6 +4,8 @@ import { useNavigate } from 'react-router-dom';
 // Components
 import CustomButton from '../../components/CustomButton/CustomButton';
 import Navigation from '../../components/Navigation/Navigation';
+import Footer from '../../components/Footer/Footer';
+
 
 // Stylesheet
 import './404.css';
@@ -12,7 +14,7 @@ function NoMatch() {
   const navigate = useNavigate();
   
   // Page Title
-  document.title = `${process.env.REACT_404_TITLE}`;
+  document.title = `404 page | Deriv.com`;
 
   return (
     <>
@@ -27,12 +29,15 @@ function NoMatch() {
 
           {/* Page Not Found Container Info */}
           <div className='pageNotFoundContainer__info'>
-            <h3 type="heading-3" className="eFIFSU">We couldn’t find that page</h3>
-            <p type="paragraph" className='eFIFSU'>It may not be available in your country, or maybe a broken link has brought you here.</p>
+            <h3 type="heading-3" className="eFIFSU center-text">We couldn’t find that page</h3>
+            <p type="paragraph" className='eFIFSU center-text'>It may not be available in your country, or maybe a broken link has brought you here.</p>
             <CustomButton handleClick={() => navigate('/')} btn_bg>Visit our homepage</CustomButton>
           </div>  
         </div>
       </main>
+
+      {/* Footer */}
+      <Footer />
     </>
   )
 }

@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<!-- saved from url=(0148)https://oauth.deriv.com/oauth2/authorize?app_id=16929&l=en&brand=deriv&date_first_contact=2022-07-08&signup_device=desktop&utm_source=null&platform= -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Log in | Deriv.com </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Log in to your Deriv online trading account and start trading on the most popular financial markets.">
+<meta name="keywords" content="online trading, deriv trading, online trading account, deriv account">
+<link rel="shortcut icon" href="https://deriv.com/icons/icon-48x48.png">
+<link rel="apple-touch-icon" sizes="48x48" href="https://deriv.com/icons/icon-48x48.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://deriv.com/icons/icon-72x72.png">
+<link rel="apple-touch-icon" sizes="96x96" href="https://deriv.com/icons/icon-96x96.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://deriv.com/icons/icon-144x144.png">
+<link rel="apple-touch-icon" sizes="192x192" href="https://deriv.com/icons/icon-192x192.png">
+<link rel="apple-touch-icon" sizes="256x256" href="https://deriv.com/icons/icon-256x256.png">
+<link rel="apple-touch-icon" sizes="384x384" href="https://deriv.com/icons/icon-384x384.png">
+<link rel="apple-touch-icon" sizes="512x512" href="https://deriv.com/icons/icon-512x512.png">
+<style type="text/css">
+            @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,600&display=swap");
+            /*---------- variables ---------- */
+            :root {
+                /* colors */
+                --color-black: #0e0e0e;
+                --color-black-2: #2a2a2a;
+                --color-black-3: #333333;
+                --color-black-4: #182039;
+                --color-white: #ffffff;
+                --color-red: #ff444f;
+                --color-red-1: #dd573a;
+                --color-red-2: #ffc9cc;
+                --color-red-3: #d43e47;
+                --color-grey: #c2c2c2;
+                --color-grey-1: #999999;
+                --color-grey-2: #666565;
+                --color-grey-3: #f2f2f2;
+                --color-grey-4: #f2f3f4;
+                --color-grey-5: #d6dadb;
+                --color-grey-6: #777777;
+                --color-grey-7: #f3f3f3;
+                --color-green: #85acb0;
+                --color-blue: #4c76be;
+                --color-blue-2: #365899;
+                --color-yellow: #fff2df;
+
+                /* sizes */
+                --text-size-xxxs: 1rem;
+                --text-size-xxs: 1.2rem;
+                --text-size-xsm: 1.3rem;
+                --text-size-xs: 1.4rem;
+                --text-size-s: 1.6rem;
+                --text-size-sm: 2rem;
+                --text-size-m: 2.4rem;
+                --text-size-l: 3.2rem;
+                --text-size-xl: 4.8rem;
+                --text-size-xxl: 6.4rem;
+            }
+            html {
+                font-size: 62.5%;
+            }
+            body,
+            * {
+                font-family: "IBM Plex Sans", sans-serif;
+            }
+            body {
+                margin: 0;
+                background-color: rgba(245, 247, 250, 0.64);
+                letter-spacing: 0.15px;
+            }
+            header {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 73px;
+                margin-bottom: 4rem;
+                background-color: var(--color-black);
+            }
+            @media (max-width: 480px) {
+                header {
+                    margin-bottom: unset;
+                }
+            }
+            
+            header #logo {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                max-width: 100%;
+                border-style: solid;
+                border-width: 0 1px 0 0;
+                border-color: var(--color-white);
+            }
+            header #subheader {
+                height: 16px;
+            }
+            header #logo, header #subheader {
+                padding: 0 9px;
+            }
+            a {
+                color: var(--color-red);
+                font-size: var(--text-size-xs);
+                line-height: 1.5;
+                text-decoration: none;
+            }
+            a:hover {
+                cursor: pointer;
+                text-decoration: underline;
+            }
+            p {
+                color: var(--color-black-3);
+                font-weight: normal;
+                font-size: var(--text-size-xs);
+                line-height: 1.5;
+                margin: 0;
+            }
+            p.secondary {
+                color: var(--color-grey);
+            }
+            p.error {
+                color: var(--color-red);
+                font-size: var(--text-size-xxs);
+                align-self: flex-start;
+                padding-left: 0.8rem;
+            }
+
+            h1,
+            h2,
+            h3 {
+                font-weight: bold;
+                line-height: 1.25;
+                width: 100%;
+                margin-top: 0;
+            }
+            h1 {
+                font-size: var(--text-size-xxl);
+            }
+
+            h2 {
+                font-size: var(--text-size-xl);
+            }
+
+            h3 {
+                font-size: var(--text-size-l);
+            }
+
+            h4 {
+                font-size: var(--text-size-m);
+            }
+
+            /*---------- form, input, button ---------- */
+            #container {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                max-width: 40.6rem;
+                margin: auto;
+                text-align: left;
+                padding: 40px;
+                background-color: var(--color-white);
+                border-radius: 6px;
+                box-shadow: 0 16px 20px 0 rgba(0, 0, 0, 0.05), 0 0 20px 0 rgba(0, 0, 0, 0.05);
+            }
+            @media (max-width: 480px) {
+                #container {
+                    padding:40px 16px;
+                }
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                margin: 0 auto 3.2rem;
+            }
+            form .input-group {
+                margin-top: 1.4rem;
+                height: 3.8rem;
+            }
+            form .input-group:first-child {
+                margin-top: 0;
+            }
+            form a {
+                align-self: center;
+            }
+
+            div.input-group {
+                width: 100%;
+                height: max-content;
+            }
+            div.input-wrapper {
+                position: relative;
+                border: 1px solid var(--color-grey-5);
+                border-radius: 4px;
+            }
+            div.input-error {
+                min-height: 1.8rem;
+            }
+            div.input-wrapper:hover {
+                border-color: var(--color-grey-1);
+            }
+            div.input-wrapper.has_error {
+                border-color: var(--color-red);
+            }
+            div.input-wrapper.has_error input ~ label {
+                color: var(--color-red);
+            }
+            div.input-wrapper .input-button {
+                position: absolute;
+                top: 0;
+                right: 10px;
+                width: 17px;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-position: center center;
+                cursor: pointer;
+                display: none;
+            }
+            div.input-wrapper #btnToggle.icon_hidden {
+                background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTTAgMGgxNnYxNkgweiIvPgogICAgICAgIDxwYXRoIGZpbGw9IiM5OTkiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTE0LjE3NyAyLjExOGEuNS41IDAgMSAxIC42NDYuNzY0bC0yLjA0OCAxLjczMkE3LjkyNSA3LjkyNSAwIDAgMSAxNS4zMzMgOGMtMS4xNTMgMi45MjctNCA1LTcuMzMzIDVhNy44MyA3LjgzIDAgMCAxLTMuOTA4LTEuMDM4bC0yLjI2OSAxLjkyYS41LjUgMCAxIDEtLjY0Ni0uNzY0bDIuMDQ3LTEuNzMzQTcuOTI1IDcuOTI1IDAgMCAxIC42NjcgOEMxLjgyIDUuMDczIDQuNjY3IDMgOCAzYTcuODMgNy44MyAwIDAgMSAzLjkwOSAxLjAzOHptLTIuMjY1IDMuMjI2TDEwLjU4IDYuNDcyYy4yNjcuNDQ4LjQyLjk3LjQyIDEuNTI4IDAgMS42NTMtMS4zNDcgMy0zIDMtLjczNiAwLTEuNDEtLjI2Ny0xLjkzMy0uNzA4bC0xLjEwNi45MzVDNS44OCAxMS43MjcgNi45MTQgMTIgOCAxMmMyLjU4NSAwIDQuODc4LTEuNTUgNi00YTcuMDQ2IDcuMDQ2IDAgMCAwLTIuMDg4LTIuNjU2ek04IDRDNS40MjIgNCAzLjEyMiA1LjU1IDIgOGE3LjA1IDcuMDUgMCAwIDAgMi4wODYgMi42NTZMNS40MiA5LjUyOEEyLjk4IDIuOTggMCAwIDEgNSA4YzAtMS42NTMgMS4zNDctMyAzLTMgLjczNiAwIDEuNDExLjI2NyAxLjkzNC43MDlsMS4xMDUtLjkzNUE2LjMzNiA2LjMzNiAwIDAgMCA4IDR6bTEuODAyIDMuMTNMNi44NDUgOS42MzNBMiAyIDAgMCAwIDkuODAyIDcuMTN6TTggNmEyIDIgMCAwIDAtMS44MDIgMi44N2wyLjk1Ny0yLjUwM0ExLjk5IDEuOTkgMCAwIDAgOCA2eiIvPgogICAgPC9nPgo8L3N2Zz4K");
+            }
+            div.input-wrapper #btnToggle.icon_visible {
+                background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTTAgMGgxNnYxNkgweiIvPgogICAgICAgIDxwYXRoIGZpbGw9IiM5OTkiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTggNGMyLjU3OCAwIDQuODc4IDEuNTUgNiA0LTEuMTIyIDIuNDUtMy40MTUgNC02IDRzLTQuODc4LTEuNTUtNi00YzEuMTIyLTIuNDUgMy40MjItNCA2LTRtMC0xQzQuNjY3IDMgMS44MiA1LjA3My42NjcgOGMxLjE1MyAyLjkyNyA0IDUgNy4zMzMgNXM2LjE4LTIuMDczIDcuMzMzLTVjLTEuMTUzLTIuOTI3LTQtNS03LjMzMy01em0wIDNhMiAyIDAgMSAxLS4wMDEgNC4wMDFBMiAyIDAgMCAxIDggNm0wLTFDNi4zNDcgNSA1IDYuMzQ3IDUgOHMxLjM0NyAzIDMgMyAzLTEuMzQ3IDMtMy0xLjM0Ny0zLTMtM3oiLz4KICAgIDwvZz4KPC9zdmc+Cg==");
+            }
+            input[type=password]::-ms-reveal,
+            input[type=password]::-ms-clear {
+              display: none;
+            }
+            input {
+                background: none;
+                color: var(--color-black-3);
+                font-size: var(--text-size-s);
+                padding: 1rem 1rem 1rem 0.8rem;
+                width: calc(100% - 1.8rem);
+                display: block;
+                border: none;
+                border-radius: 0;
+            }
+            input::-webkit-input-placeholder {
+                opacity: 0;
+                -webkit-transition: opacity 0.25s;
+                -o-transition: opacity 0.25s;
+                transition: opacity 0.25s;
+                padding-left: 0.3rem;
+            }
+            input::-moz-placeholder {
+                opacity: 0;
+                -webkit-transition: opacity 0.25s;
+                -o-transition: opacity 0.25s;
+                transition: opacity 0.25s;
+                padding-left: 0.3rem;
+            }
+            input:-ms-input-placeholder {
+                opacity: 0;
+                -webkit-transition: opacity 0.25s;
+                -o-transition: opacity 0.25s;
+                transition: opacity 0.25s;
+                padding-left: 0.3rem;
+            }
+            input::-ms-input-placeholder {
+                opacity: 0;
+                -webkit-transition: opacity 0.25s;
+                -o-transition: opacity 0.25s;
+                transition: opacity 0.25s;
+                padding-left: 0.3rem;
+            }
+            input ~ label {
+                color: var(--color-grey-1);
+                font-size: var(--text-size-xs);
+                position: absolute;
+                pointer-events: none;
+                left: 1.1rem;
+                top: 1rem;
+                transition: 0.25s ease all;
+                transform-origin: top left;
+            }
+            input:focus {
+                outline: none;
+            }
+            input:focus::-webkit-input-placeholder {
+                opacity: 0.4;
+            }
+            input:focus::-moz-placeholder {
+                opacity: 0.4;
+            }
+            input:focus:-ms-input-placeholder {
+                opacity: 0.4;
+            }
+            input:focus::-ms-input-placeholder {
+                opacity: 0.4;
+            }
+            input:focus::placeholder {
+                opacity: 0.4;
+            }
+            input:focus ~ label,
+            label.raised-label,
+            input:not(:focus):not(:invalid) ~ label {
+                background-color: var(--color-white);
+                -webkit-transform: translate(-4px, -1.8rem) scale(0.71);
+                -ms-transform: translate(-4px, -1.8rem) scale(0.71);
+                transform: translate(-4px, -1.8rem) scale(0.71);
+                padding: 0 4px;
+                -webkit-transform-origin: top left;
+                -ms-transform-origin: top left;
+                transform-origin: top left;
+            }
+            /* somehow this `input:-webkit-autofill` was not picked on focus in Edge
+            if we add it with other classes as above. it worked separately. */
+            input:-webkit-autofill ~ label {
+                background-color: var(--color-white);
+                -webkit-transform: translate(0, -1.8rem) scale(0.75);
+                padding: 0 4px;
+                -webkit-transform-origin: top left;
+            }
+            input[style*="background"] ~ .input-button {
+                right: 32px;
+            }
+            input:not(:placeholder-shown) ~ .input-button {
+                display: block;
+            }
+            button {
+                border-radius: 4px;
+                padding: 1rem 1.6rem;
+                font-size: 1.4rem;
+                transition: all 0.25s;
+                font-weight: bold;
+            }
+            button:hover {
+                cursor: pointer;
+            }
+            button:focus,
+            button:active {
+                outline: none;
+            }
+            button:active {
+                transform: scale(0.95);
+            }
+            button > * {
+                pointer-events: none;
+            }
+            button.primary {
+                border: 2px solid var(--color-red);
+                color: var(--color-red);
+                background: transparent;
+            }
+            button.primary:hover {
+                background-color: var(--color-red);
+                color: var(--color-white);
+            }
+            button.secondary {
+                border: 2px solid var(--color-red);
+                color: var(--color-white);
+                background: var(--color-red);
+            }
+            button.secondary:hover {
+                background-color: var(--color-red-3);
+                border-color: var(--color-red-3);
+            }
+            button.tertiary {
+                border: 2px solid var(--color-grey-1);
+                color: var(--color-black);
+                background: transparent;
+            }
+            button.tertiary:hover {
+                background-color: rgba(0, 0, 0, 0.08);
+            }
+
+            #lost-password {
+                align-self: flex-start;
+                margin-bottom: 3rem;
+            }
+
+            #lost-password-container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                flex-direction: column;
+            }
+
+            #lost-password-container button[type="submit"] {
+                margin-left: auto;
+                border: none;
+                width: 100%;
+                height: 4rem;
+            }
+
+            #oa_social_login_container {
+                margin: 1.6rem auto;
+                width: 100%;
+            }
+            #oa_social_login_container iframe {
+                height: 40px !important;
+            }
+            @media (max-width: 480px) {
+                #oa_social_login_container iframe {
+                    height: 140px !important;
+                }
+            }
+            #oa_social_login_container iframe #social_login {
+                background: black !important;
+            }
+            p.error-oneall {
+                color: var(--color-red);
+                font-size: var(--text-size-s);
+            }
+            .title-text {
+                margin-top: 0;
+                margin-bottom: 0.8rem;
+                line-height: 3.6rem;
+            }
+            .subtitle-text {
+                display: flex;
+                font-size: var(--text-size-s);
+                color: var(--color-black-3);
+                margin-bottom: 1.6rem;
+                align-items: center;
+            }
+            .deriv-url {
+                background-color: var(--color-grey-3);
+                border-radius: var(--text-size-s);
+                margin-left: 0.8rem;
+                line-height: 0;
+            }
+            .binary-logo {
+                margin-right: 10px;
+            }
+            .binary-logo svg {
+                vertical-align: middle;
+            }
+            .center-text {
+                text-align: center;
+            }
+            .note-container {
+                background-color: rgba(242, 243, 244, 0.56);
+                display: flex;
+                padding: 0.8em;
+                margin-bottom: 2.5rem;
+                align-items: center;
+                border-radius: 4px;
+            }
+            .note-wrapper {
+                text-align: left;
+                display: flex;
+                flex-direction: column;
+                min-height: 42px;
+            }
+            .note-title {
+                font-size: var(--text-size-xs);
+                color: var(--color-grey-2);
+                text-align: left;
+                font-weight: normal;
+                margin: 0;
+                line-height: 21px;
+            }
+            .note-text {
+                color: var(--color-grey-2);
+                font-size: var(--text-size-xxxs);
+            }
+            .separator {
+                width: 100%;
+                border-top: 1px solid var(--color-grey-5);
+            }
+            .social-text {
+                color: var(--color-grey-6);
+                width: fit-content;
+                margin: auto;
+                transform: translateY(-11px);
+                background: var(--color-white);
+                padding: 0 2.2rem;
+            }
+            .account-link {
+                font-size: var(--text-size-s);
+            }
+            .account-text {
+                color: var(--color-black-3);
+                font-size: var(--text-size-s);
+                width: 100%;
+                text-align: center;
+                margin-top: 1.6rem;
+            }
+            @media (max-width: 480px) {
+                .account-text {
+                    margin-top:unset;
+                    margin:1.6rem auto 0;
+                }
+            }
+            @media (max-width: 435px) {
+                .account-text {
+                    width: 58%
+                }
+            }
+            @media (max-width: 360px) {
+                .account-text {
+                    width: 63%
+                }
+            }
+            .hide {
+                display: none;
+            }
+            @media (max-width: 368px) {
+                html {
+                    font-size: 55%;
+                }
+                .subtitle-text {
+                    flex-direction: column;
+                }
+                .deriv-url {
+                    margin-top: 0.8rem;
+                    margin-left: 0;
+                }
+            }
+
+            /*---------- Scopes confirmation page ---------- */
+            .scope-confirms#container {
+                max-width: 50rem;
+            }
+            .scope-title {
+                margin-bottom: 0.8rem;
+            }
+            .scope-subtitle {
+                font-size: var(--text-size-sm);
+            }
+            .scopes {
+                margin-top: 2.4rem;
+                margin-bottom: 3.2rem;
+                padding: 2.4rem;
+                background: var(--color-grey-7);
+            }
+            .scopes ul {
+                text-align: left;
+                margin: 0;
+                padding: 0;
+                padding-left: 2rem;
+            }
+            .scopes li {
+                color: var(--color-black-3);
+                font-size: var(--text-size-s);
+                padding: 1rem 0;
+            }
+            #btnCancel {
+                margin-right: 0.8rem;
+            }
+
+            /*---------- reactivate account page ---------- */
+            .reactivate-account#container {
+                align-items: center;
+                text-align: center;
+            }
+            .reactivate-title {
+                font-size: 2.4rem;
+                margin-bottom: 0.8rem;
+            }
+            .reactivate-description {
+                font-size: 1.6rem;
+                margin-bottom: 2.4rem;
+            }
+
+            .reactivate-description a {
+                font-size: 1.6rem;
+            }
+
+            @media (max-width: 450px) {
+                .reactivate-account#container {
+                    background-color: unset;
+                    box-shadow: unset;
+                }
+                .reactivate-title {
+                    font-size: 2rem;
+                }
+            }
+        </style>
+<script type="text/javascript" async="" src="./eye_close_files/analytics.js.download"></script><script type="text/javascript" async="" src="./eye_close_files/js"></script><script async="" src="./eye_close_files/gtm.js.download"></script><script type="text/javascript" src="https://deriv.api.oneall.com/socialize/library.js?lang=en"></script><script type="text/javascript">
+            var oa = document.createElement('script');
+            oa.type = 'text/javascript';
+            oa.async = false;
+            oa.src = '//deriv.api.oneall.com/socialize/library.js?lang=en';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(oa, s);
+        </script>
+</head>
+<body class="oauth">
+<header>
+<a id="logo" href="https://deriv.com/">
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="27" viewBox="0 0 160 27">
+<defs>
+<lineargradient id="fspki0leya" x1="50%" x2="50%" y1="0%" y2="100%">
+<stop offset="0%" stop-color="#FF6544"></stop>
+<stop offset="100%" stop-color="#FF4449"></stop>
+</lineargradient>
+</defs>
+<g fill="none">
+<path fill="url(#fspki0leya)" d="M6.13 0v.03L16.314 13.5 0 26.97V27h16.474c4.807 0 8.979-3.373 10.06-8.136l1.363-6.008c.707-3.116-.021-6.39-1.98-8.894C23.96 1.46 20.985 0 17.84 0H6.13z"></path>
+<path fill="#B51A31" d="M16.308 13.527L9.144 27 0 27z"></path>
+<path fill="#FFF" d="M139.883 0l3.62 18.88L153.67 0h6.254L144.58 27h-5.123l-5.977-27h6.402zM49.931 0c8.279 0 13.01 5.782 11.702 13.327l-.013.076C60.31 20.95 53.57 26.81 45.282 26.81H35L39.647 0h10.284zm57.22 0c3.352 0 5.784.959 7.203 2.72 1.21 1.492 1.64 3.6 1.197 6.127l-.013.077c-.742 4.326-3.51 7.046-7.082 8.311l4.778 9.574h-6.78l-6.31-13.793h4.364c2.826 0 4.712-1.541 5.103-3.791l.014-.076c.438-2.523-1.07-3.825-3.895-3.825h-5.754l-3.727 21.485h-5.8L95.096 0h12.054zm21.62 0l-4.647 26.809h-5.802L122.972 0h5.8zm-39.4 0l-.912 5.247H74.336l-.945 5.438h9.118l-.91 5.247h-9.117l-.976 5.625h14.313l-.91 5.247H64.834L69.481 0h19.89zM49.008 5.324h-4.481l-2.804 16.161h4.484c4.744 0 8.51-3.255 9.334-8.005l.013-.077c.824-4.747-1.799-8.08-6.546-8.08z"></path>
+</g>
+</svg>
+</a>
+<div id="subheader">
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="16" viewBox="0 0 120 16">
+<path fill="#999" fill-rule="evenodd" d="M7.393 0c1.09 0 2.012.249 2.765.746.754.498 1.302 1.231 1.645 2.2l.304.832L7.868 5.27c.013-.063.02-.145.02-.247 0-.1-.039-.268-.115-.502-.076-.233-.177-.42-.304-.559-.164-.177-.367-.265-.608-.265-.697 0-1.26.5-1.691 1.5-.292.697-.52 1.61-.685 2.737-.076.468-.126.81-.152 1.025-.076.558-.114 1.014-.114 1.368 0 .596.086 1.074.257 1.435.171.36.472.541.903.541.342 0 .693-.182 1.054-.545.362-.362.58-.78.656-1.252l.076-.497h-1.54l.514-3.204h5.835l-.248 1.46c-.342 2.225-1.02 4.007-2.033 5.346C8.489 15.204 6.905 16 4.942 16c-1.762 0-3.06-.625-3.897-1.875C.348 13.09 0 11.702 0 9.96c0-.252.01-.526.028-.823.02-.297.054-.615.105-.956.317-2.31 1.052-4.197 2.205-5.662C3.655.84 5.34 0 7.393 0zm107.894 0c1.089 0 2.01.249 2.765.746.753.498 1.302 1.231 1.644 2.2l.304.832-4.238 1.492c.012-.063.019-.145.019-.247 0-.1-.038-.268-.114-.502-.076-.233-.178-.42-.304-.559-.165-.177-.368-.265-.609-.265-.697 0-1.26.5-1.691 1.5-.292.697-.52 1.61-.684 2.737-.076.468-.127.81-.152 1.025-.076.558-.114 1.014-.114 1.368 0 .596.085 1.074.256 1.435.171.36.472.541.903.541.342 0 .694-.182 1.055-.545.36-.362.58-.78.656-1.252l.075-.497h-1.539l.513-3.204h5.835l-.247 1.46c-.342 2.225-1.02 4.007-2.034 5.346C116.382 15.204 114.8 16 112.835 16c-1.762 0-3.06-.625-3.896-1.875-.697-1.035-1.046-2.423-1.046-4.166 0-.252.01-.526.029-.823.019-.297.054-.615.104-.956.317-2.31 1.052-4.197 2.205-5.662C111.549.84 113.234 0 115.287 0zM22.94.265l-.57 3.697h-3.612l-.342 2.047h3.193l-.57 3.697h-3.212L17.467 12h3.572l-.59 3.697h-7.677L15.242.265h7.698zm10.51 0l-.59 3.697h-2.394l-1.9 11.735h-4.22l1.9-11.735-2.29-.001.617-3.696h8.877zm15.622 0l-.59 3.697h-2.394l-1.9 11.735h-4.22l1.9-11.735-2.29-.001.618-3.696h8.876zm6.215 0c1.989 0 3.427.36 4.314 1.08.773.63 1.16 1.552 1.16 2.764 0 .379-.039.789-.115 1.23-.14.809-.399 1.516-.779 2.121-.444.72-1.04 1.25-1.787 1.59l-.437.19 2.053 6.457H55.21l-.59-2.56c-.063-.315-.215-1.124-.456-2.426-.05-.329-.133-.777-.247-1.346-.076.569-.133 1.017-.17 1.346-.115.796-.242 1.611-.38 2.445-.065.43-.16.98-.286 1.65-.038.215-.095.512-.171.89H48.73L51.22.267h4.067zm16.572 0l.875 15.432h-4.296v-1.953h-2.832l-.684 1.953h-4.276L66.766.265h5.093zm8.819 0c1.976 0 3.478.65 4.504 1.95.9 1.137 1.35 2.614 1.35 4.431 0 .416-.032.878-.095 1.382-.305 2.285-1.097 4.09-2.376 5.415-1.445 1.503-3.396 2.254-5.854 2.254h-3.725L76.934.265h3.744zm13.456 0l-2.528 15.432h-4.181L89.933.265h4.2zm6.366 0l.894 4.257.95 5.108.152-1.892c.114-1.374.221-2.522.323-3.443.063-.593.171-1.457.323-2.592.038-.353.102-.832.19-1.438h3.991l-2.451 15.432h-3.916c-.076-.304-.133-.556-.17-.759-.317-1.415-.52-2.35-.609-2.805-.19-.935-.399-2.092-.627-3.47l-.304-1.914c-.076.77-.133 1.384-.171 1.839-.127 1.301-.247 2.35-.361 3.146-.114.797-.254 1.669-.418 2.617-.051.328-.133.777-.247 1.346h-3.954L96.547.265h3.953zM80.64 4.133h-.114L79.27 12h.133c.735 0 1.356-.415 1.863-1.245.418-.68.71-1.522.874-2.529.076-.44.114-.911.114-1.415 0-.792-.108-1.408-.323-1.849-.279-.553-.71-.83-1.292-.83zM68.666 4l-2.014 6.502h1.786L68.666 4zm-13.455-.474h-.362l-.608 3.848h.456c.457 0 .862-.22 1.217-.66.316-.39.52-.849.608-1.377.025-.176.038-.302.038-.377 0-.44-.13-.79-.39-1.047-.26-.258-.58-.387-.96-.387z"></path>
+</svg>
+</div>
+</header>
+<div id="container">
+<h1 class="title-text" style="font-size: 2.4rem">Welcome back!</h1>
+<p class="subtitle-text">It's good to see you again. Log in to start trading.</p>
+<div class="note-container">
+<div class="binary-logo">
+<svg xmlns="http://www.w3.org/2000/svg" width="43" height="42"><g fill="none" fill-rule="evenodd"><path fill="#FEFEFE" d="M36.03 6.598C27.97-1.48 14.857-1.48 6.795 6.596c-8.06 8.074-8.06 21.216 0 29.29 8.062 8.08 21.179 8.078 29.235 0 8.07-8.074 8.07-21.216 0-29.288"></path><path fill="#777" d="M15.652 26.674s.237 1.776 1.73 2.599l-.398-.742s.761-1.999-1.332-1.857"></path><path fill="#777" d="M22.255 14.32c1.605.573 2.121 2.287 2.121 2.287-2.042.466-1.612-1.622-1.612-1.622l-.51-.665zM33 32.851c-.21.205-.415.405-.627.598-4.611 3.764-8.162 1.892-8.203 1.892-2.407-.482-3.602-.49-4.277-.942-.17-.114-.715-.407-.84-.336-.491.293-1.168.444-1.863-.11-.061-.05-.12-.107-.173-.158-.766-.765-.506-1.554-.252-1.829.177-.18-.134-.684-.134-.684s-.904-1.345-1.521-2.154c-.68-.889-.773-2.652-.781-2.675l-.01-.025c-.686-.817-.758-1.069-.995-1.467-.138-.236-.351-.456-.532-.646a3.35 3.35 0 01-.32-.353c-.018-.023-.023-.058-.016-.112.064-.382.882-1.224 1.06-1.34.216-.141 1.15-.71 1.15-.71s.525-.827 1.418-.827c.806.005 1.298-.044 2.688.41l.578.183c.969.311 1.823.678 2.502.972.576.248 1.037.45 1.39.542 1.2.316 3.314-.656 3.76-1.066.732-.667 1.048-1.114 1.052-1.48.006-.206-.085-.386-.292-.603-.108-.1-.247-.285-.421-.462-.028-.027-.057-.06-.092-.085-2.03-2.159-1.679-3.513-1.677-3.535.088-.971-.468-1.595-1.066-2.24l-.097-.122a.652.652 0 01-.07-.078c.864.141 1.453.49 3.141.678.959.103.656.094 1.422.076 1.055-.034 1.891-.127 1.948-.367-.102-.087-.569.026-2.81-.832a32.835 32.835 0 00-1.86-.676 27.01 27.01 0 01-1.768-.683c3.656.96 4.852 1.337 6.524 1.36a5.273 5.273 0 001.258-.112c.238-.043.976-.21 1.06-.466.025-.045-.708.12-2.065-.328-4.267-1.413-4.63-2.12-6.995-3.041-.826-.321-1.094-.497-3.586-1.142-1.142-.294-2.868-.125-3.103.023-3.235-.762-3.97-.679-4.919-.474C18.915 3.36 27.463 4.092 33 9.638c.75.754 1.415 1.564 1.997 2.423l.078.118a16.266 16.266 0 012.725 9.065A16.33 16.33 0 0133 32.851zm1.984-25.205c-7.486-7.5-19.657-7.5-27.142-.002-7.483 7.498-7.483 19.699 0 27.198 7.485 7.5 19.66 7.496 27.142-.002 7.493-7.497 7.493-19.698 0-27.194z"></path></g></svg>
+</div>
+<div class="note-wrapper">
+<h5 class="note-title">If you're a <strong>Binary.com</strong> user, log in with your <strong>Binary.com</strong> username and password</h5>
+</div>
+</div>
+<form novalidate="" id="frmLogin" method="POST">
+<div class="input-group">
+<div class="input-wrapper has_error">
+<input type="email" id="txtEmail" name="email" placeholder="example@email.com" required="" autocomplete="off" autofocus="autofocus" maxlength="254">
+<label for="txtEmail" class="raised-label">Email</label>
+<span class="bar"></span>
+</div>
+<div class="input-error">
+<p class="error error_invalid hide">That doesn't look like an email address.</p>
+<p class="error error_required">Email is required.</p>
+</div>
+</div>
+<div class="input-group">
+<div class="input-wrapper has_error">
+<input type="password" id="txtPass" name="password" required="" autocomplete="off">
+<label for="txtPass">Password</label>
+<span class="bar"></span>
+<span id="btnToggle" class="input-button icon_hidden"></span>
+</div>
+<div class="input-error">
+<p class="error error_required">Password is required.</p>
+</div>
+</div>
+<div id="lost-password-container">
+<a id="lost-password" href="https://deriv.com/reset-password">Forgot password?</a>
+<button type="submit" class="button secondary" name="login" value="Log in">Log in</button>
+</div>
+<input type="hidden" name="csrf_token" value="67377bb073d67812bf2ee3fb95b6ce83d51b64c6">
+</form>
+<div class="separator">
+<p class="center-text social-text">
+Or log in with
+</p>
+</div>
+<div id="oa_social_login_container" data-processed="true" style="min-height: 40px;"><iframe id="oa_social_login_frame_59518" frameborder="0" scrolling="no" allowtransparency="true" data-processed="true" title="Login with Social Networks" name="OneAll Social Login" src="./eye_close_files/saved_resource.html" style="border: 0px none; width: 406px; height: 40px; background-color: transparent;"></iframe></div>
+<p class="account-text">
+Don’t have an account yet? <a class="account-link" href="https://deriv.com/signup/">Create a new account</a>
+</p>
+</div>
+<script type="text/javascript">
+    var frmLogin, txtEmail, txtPass, btnToggle;
+    window.onload = function() {
+        frmLogin  = document.getElementById('frmLogin');
+        txtEmail  = document.getElementById('txtEmail');
+        txtPass   = document.getElementById('txtPass');
+        btnToggle = document.getElementById('btnToggle');
+
+        btnToggle.addEventListener('click', togglePasswordVisibility);
+
+        if (frmLogin) {
+            frmLogin.addEventListener('submit', function(e) {
+                if (!validateAll()) {
+                    e.preventDefault();
+                    return false;
+                }
+            });
+        }
+
+        var fields = [
+            { element: txtEmail, validator: validateEmail },
+            { element: txtPass,  validator: validatePass },
+        ];
+        fields.forEach(function(field) {
+            if (field.element) {
+                ['change', 'blur'].forEach(function(event) {
+                    field.element.addEventListener(event, function(e) {
+                        field.validator();
+                    });
+                });
+            }
+        });
+    };
+
+    function validateAll() {
+        return validateEmail() && validatePass();
+    }
+
+    function validateEmail() {
+        return validateField(txtEmail, new RegExp(/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,63}$/));
+    }
+
+    function validatePass() {
+        return validateField(txtPass, new RegExp(/^[ -~]{6,25}$/));
+    }
+
+    function validateField(element, regex) {
+        if (element) {
+            hideErrors(element);
+
+            var hasError = true;
+            var value = (element.value || '').trim();
+            element.value = value;
+            if (!value) {
+                showError(element, 'required');
+            } else if (!regex.test(value) || !element.checkValidity()) {
+                showError(element, 'invalid');
+                raiseLabel(element, 1);
+            } else {
+                hasError = false;
+                raiseLabel(element, !!value)
+            }
+
+            return !hasError;
+        }
+    }
+
+    function hideErrors(element) {
+        element.parentNode.classList.remove('has_error');
+        element.parentNode.parentNode.querySelectorAll('.input-error .error').forEach(function (el) {
+            el.classList.add('hide');
+        });
+    }
+
+    function showError(element, errorType) {
+        element.parentNode.classList.add('has_error');
+        var el = element.parentNode.parentNode.querySelector('.input-error .error_' + errorType);
+        if (el) {
+            el.classList.remove('hide');
+        }
+    }
+    function raiseLabel(element, should_raise) {
+        element.parentNode.querySelector('label').classList[should_raise ? 'add' : 'remove']('raised-label');
+    }
+
+    function togglePasswordVisibility() {
+        if (txtPass.type === 'password') {
+            txtPass.type = 'text';
+            btnToggle.classList.remove('icon_hidden');
+            btnToggle.classList.add('icon_visible');
+        } else {
+            txtPass.type = 'password';
+            btnToggle.classList.remove('icon_visible');
+            btnToggle.classList.add('icon_hidden');
+        }
+    }
+</script>
+<script type="text/javascript">
+    var use_social_login = '1';
+    if (use_social_login) {
+        var cb = 'https://oauth.deriv.com/oauth2/oneall/callback?app_id=16929&amp;l=en&amp;brand=deriv&amp;date_first_contact=2022-07-08&amp;signup_device=desktop&amp;utm_source=null&amp;platform=';
+        var login_method = '';
+        var providers = ["google","facebook","apple"];
+
+        /* Embeds the buttons into the container oa_social_login_container */
+        var _oneall = _oneall || [];
+        _oneall.push(['social_login', 'set_force_re_authentication', true]);
+        _oneall.push(['social_login', 'set_providers', providers]);
+        _oneall.push(['social_login', 'set_callback_uri', cb]);
+        _oneall.push(['social_login', 'set_popup_usage', 'never']);
+        /* push all configs before this as once rendered it not possible to hook*/
+        _oneall.push(['social_login', 'do_render_ui', 'oa_social_login_container']);
+
+        if (login_method) {
+            _oneall.push(['social_login', 'do_login', login_method]);
+        }
+        if (document.getElementById('frmLogin')) {
+            document.getElementById('frmLogin').reset();
+        }
+    }
+</script>
+
+<script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-NF7884S');
+        </script>
+
+
+
+<script type="text/javascript" id="">(function(){try{window.setTimeout(function(){dataLayer.push({event:"done_loading"})},2E3)}catch(a){}})();</script></body></html>

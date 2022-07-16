@@ -5,3 +5,10 @@
     padding: 1.6rem;
     margin-top: 2rem;
 }
+
+.account__page {
+    padding: 8rem 0;
+    background-color: white;
+    /* background-color: rgba(200, 214, 215, 0.22); */
+    letter-spacing: 0.15px;
+}

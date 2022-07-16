@@ -1,0 +1,46 @@
+.tradeTypes {
+    max-width: 100%;
+    background-color: var(--color-white);
+    position: static;
+}
+
+.tradeTypes__header {
+    text-align: center;
+    color: var(--color-black-3);
+}
+
+.tradeTypes__header h1 {
+    /* color: var(--color-black-3); */
+    font-weight: bold;
+    font-size: 4.8rem;
+    line-height: 6rem;
+    width: 100%;
+}
+
+.tradeTypes__header h2 {
+    /* color: var(--color-black-3); */
+    margin-top: 8px;
+    margin-bottom: 40px;
+    font-weight: normal;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+}
+
+.tradeTypes__cards__container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.tradeTypes__cards__wrapper {
+    max-width: 100%;
+    height: 600px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(384px, 1fr));
+    grid-column-gap: 24px;
+}

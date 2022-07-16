@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     height: 73px;
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem; */
     background-color: var(--color-black);
 }
 
@@ -31,7 +31,7 @@ a:hover {
     border-color: var(--color-white);
 }
 
-.navigation__subheader { height: 30px; }
+.navigation__subheader { height: 17px; }
 
 @media (max-width: 480px) {
     .navigation {

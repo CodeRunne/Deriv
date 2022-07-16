@@ -185,24 +185,7 @@ function Footer() {
                 {/* Footer Logo Wrapper */}
                 <div className="footer__logo__wrapper">
                     {/* Footer Logo SVG */}
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 147 25" className="footer__logo__wrapper__svg">
-                    <defs>
-                        <linearGradient id="a" x1="-388.13" y1="1321.44" x2="-388.13" y2="1320.44" gradientTransform="matrix(26.91 0 0 -25 10457.84 33036)" gradientUnits="userSpaceOnUse">
-                        <stop offset="0" stopColor="#ff6544"/>
-                        <stop offset="1" stopColor="#ff4449"/>
-                        </linearGradient>
-                    </defs>
-                    <g data-name="Layer 2">
-                        <g data-name="Layer 1">
-                        <g data-name="2--logogram">
-                            <g data-name="logo/logogram">
-                            <path d="M5.86 0l9.73 12.5L0 25h15.74a9.83 9.83 0 009.61-7.53l1.31-5.57a9.6 9.6 0 00-1.9-8.23A9.9 9.9 0 0017.05 0z" fill="url(#a)"/><path data-name="Path" fill="#b51a31" d="M15.58 12.53L8.74 25H0l15.58-12.47z"/>
-                            </g>
-                        </g>
-                        <path d="M129.57 1l3.15 16.78L141.56 1H147l-13.34 24h-4.46L124 1zM48.35 1C55.75 1 60 6.18 58.81 12.93V13a14.71 14.71 0 01-14.62 12H35l4.15-24zm51.85 0c3 0 5.26.86 6.56 2.44a6.57 6.57 0 011.09 5.48v.07a9.32 9.32 0 01-6.44 7.44l4.33 8.57h-6.17l-5.75-12.35h4c2.57 0 4.28-1.38 4.64-3.39v-.07c.4-2.26-1-3.42-3.54-3.42h-5.25L90.28 25H85l4.23-24zM118 1l-4 24h-5l4-24zM84 1l-.82 4.7H70.52l-.85 4.87h8.18l-.85 4.7h-8.14l-.88 5h12.84L80 25H62l4.17-24zM47.77 6h-4.16L41 20h4.17a8.53 8.53 0 008.68-6.93V13c.78-4.11-1.66-7-6.08-7z"/>
-                        </g>
-                    </g>
-                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 147 25" className="footer__logo__wrapper__svg"><defs><linearGradient id="a" x1="-388.13" y1="1321.44" x2="-388.13" y2="1320.44" gradientTransform="matrix(26.91 0 0 -25 10457.84 33036)" gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#ff6544"/><stop offset="1" stopColor="#ff4449"/></linearGradient></defs><g data-name="Layer 2"><g data-name="Layer 1"><g data-name="2--logogram"><g data-name="logo/logogram"><path d="M5.86 0l9.73 12.5L0 25h15.74a9.83 9.83 0 009.61-7.53l1.31-5.57a9.6 9.6 0 00-1.9-8.23A9.9 9.9 0 0017.05 0z" fill="url(#a)"/><path data-name="Path" fill="#b51a31" d="M15.58 12.53L8.74 25H0l15.58-12.47z"/></g></g><path d="M129.57 1l3.15 16.78L141.56 1H147l-13.34 24h-4.46L124 1zM48.35 1C55.75 1 60 6.18 58.81 12.93V13a14.71 14.71 0 01-14.62 12H35l4.15-24zm51.85 0c3 0 5.26.86 6.56 2.44a6.57 6.57 0 011.09 5.48v.07a9.32 9.32 0 01-6.44 7.44l4.33 8.57h-6.17l-5.75-12.35h4c2.57 0 4.28-1.38 4.64-3.39v-.07c.4-2.26-1-3.42-3.54-3.42h-5.25L90.28 25H85l4.23-24zM118 1l-4 24h-5l4-24zM84 1l-.82 4.7H70.52l-.85 4.87h8.18l-.85 4.7h-8.14l-.88 5h12.84L80 25H62l4.17-24zM47.77 6h-4.16L41 20h4.17a8.53 8.53 0 008.68-6.93V13c.78-4.11-1.66-7-6.08-7z"/></g></g></svg>
 
                     {/* Footer Logo Socials Container */}
                     <div className="footer__logo__socials">
@@ -292,21 +275,21 @@ function Footer() {
                         In the EU, financial products are offered by Deriv Investments (Europe) Limited, W Business Centre, Level 3, Triq Dun Karm, Birkirkara BKR 9033, Malta, licensed in Malta (<Link to="/regulatory/Deriv_Investment_(Europe)_Limited.pdf" className="footer__disclamer__asset" rel="noopener noreferrer">licence no. IS/70156</Link>) and regulated by the Malta Financial Services Authority, Triq l-Imdina, Zone 1, Central Business District, Birkirkara CBD 1010, Malta, under the Investments Services Act. Authorised by the Financial Conduct Authority and with deemed variation of permission. Subject to regulation by the Financial Conduct Authority. The nature and extent of consumer protections may differ from those for firms based in the UK. Details of the Financial Services Contracts Regime, which allows EEA-based firms to operate in the UK for a limited period to carry on activities that are necessary for the performance of pre-existing contracts, are available on the Financial Conduct Authority’s website.
                     </p>
 
-                    <p class="typography footer__disclaimer__paragraph">
-                        Outside the EU, financial products are offered by the following companies: Deriv (FX) Ltd, F16, Level 1, Paragon Labuan, Jalan Tun Mustapha, 87000 Labuan, Malaysia, licensed by Labuan Financial Services Authority (<Link target="_blank" to="/regulatory/Deriv_(FX)_Ltd.pdf" rel="noopener noreferrer" class="style__StaticAsset-sc-y1eemc-11 bUmbZd">licence no. MB/18/0024</Link>); Deriv (BVI) Ltd, Kingston Chambers, P.O. Box 173, Road Town, Tortola, British Virgin Islands, licensed by the British Virgin Islands Financial Services Commission (<Link target="_blank" to="/regulatory/Deriv_(BVI)_Ltd.pdf" rel="noopener noreferrer" class="style__StaticAsset-sc-y1eemc-11 bUmbZd">licence no. SIBA/L/18/1114</Link>); Deriv (V) Ltd, 1276, Kumul Highway, Port Vila, Vanuatu, licensed and regulated by the Vanuatu Financial Services Commission; and Deriv (SVG) LLC, Hinds Buildings, Kingstown, St. Vincent and the Grenadines.
+                    <p className="typography footer__disclaimer__paragraph">
+                        Outside the EU, financial products are offered by the following companies: Deriv (FX) Ltd, F16, Level 1, Paragon Labuan, Jalan Tun Mustapha, 87000 Labuan, Malaysia, licensed by Labuan Financial Services Authority (<Link target="_blank" to="/regulatory/Deriv_(FX)_Ltd.pdf" rel="noopener noreferrer" className="style__StaticAsset-sc-y1eemc-11 bUmbZd">licence no. MB/18/0024</Link>); Deriv (BVI) Ltd, Kingston Chambers, P.O. Box 173, Road Town, Tortola, British Virgin Islands, licensed by the British Virgin Islands Financial Services Commission (<Link target="_blank" to="/regulatory/Deriv_(BVI)_Ltd.pdf" rel="noopener noreferrer" className="style__StaticAsset-sc-y1eemc-11 bUmbZd">licence no. SIBA/L/18/1114</Link>); Deriv (V) Ltd, 1276, Kumul Highway, Port Vila, Vanuatu, licensed and regulated by the Vanuatu Financial Services Commission; and Deriv (SVG) LLC, Hinds Buildings, Kingstown, St. Vincent and the Grenadines.
                     </p>
 
-                    <p class="typography footer__disclaimer__paragraph">Deriv Limited - 13 Castle Street, St. Helier, JE2 3BT, Jersey - is the holding company for the above subsidiaries.</p>
+                    <p className="typography footer__disclaimer__paragraph">Deriv Limited - 13 Castle Street, St. Helier, JE2 3BT, Jersey - is the holding company for the above subsidiaries.</p>
 
-                    <p class="typography footer__disclaimer__paragraph">This website's services are not available in certain countries, including the USA, Canada, and Hong Kong, or to persons below 18.</p>
+                    <p className="typography footer__disclaimer__paragraph">This website's services are not available in certain countries, including the USA, Canada, and Hong Kong, or to persons below 18.</p>
 
                     <div className="footer__risk__warning bRCStyle">
-                        <p class="typography footer__disclaimer__paragraph">
+                        <p className="typography footer__disclaimer__paragraph">
                             CFDs are considered complex derivatives and may not be suitable for retail clients. CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money. The products mentioned here may be affected by changes in currency exchange rates. If you invest in these products, you may lose some or all of your investment, and the value of your investment may fluctuate. You should never invest money that you cannot afford to lose and never trade with borrowed money.
                         </p>
 
-                        <p class="typography footer__disclaimer__paragraph">
-                            Before trading in the complex financial products offered, please be sure to understand the risks involved and learn about <Link target="_blank" class="localized-link" to="/responsible/">Secure and responsible trading</Link>.
+                        <p className="typography footer__disclaimer__paragraph">
+                            Before trading in the complex financial products offered, please be sure to understand the risks involved and learn about <Link target="_blank" className="localized-link" to="/responsible/">Secure and responsible trading</Link>.
                         </p>
                     </div>
                 </div>
@@ -314,37 +297,6 @@ function Footer() {
         </footer>
     )
 }
-// {/* Footer Links */}
-// <div className="footer__links">
-// {/* Footer Link Title */}
-// <p className="footer__links__title">About us</p>
 
-// {/* Footer Links */}
-// <ul className="footer__links__items" >
-//     <li className="footer__link">
-//         <Link to="/">Who we are</Link>
-//     </li>
-
-//     <li className="footer__link">
-//         <Link to="/">Why choose us</Link>
-//     </li>
-
-//     <li className="footer__link">
-//         <Link to="/">Partnership programmes</Link>
-//     </li>
-
-//     <li className="footer__link">
-//         <Link to="/">Contact us</Link>
-//     </li>
-
-//     <li className="footer__link">
-//         <Link to="/">Careers</Link>
-//     </li>
-
-//     <li className="footer__link">
-//         <Link to="/">Deriv life</Link>
-//     </li>
-// </ul>
-// </div>
 
 export default Footer;

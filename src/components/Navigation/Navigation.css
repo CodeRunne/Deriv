@@ -136,7 +136,7 @@
     .navigation__options > button:last-child { display: none; }
 }
 
-@media (max-width: 90em) {
+@media (max-width: 1440px) {
     .navigation__wrapper{
         width: 90%;
     }  
@@ -144,7 +144,7 @@
     .navigation__logo__container > button { display: block; }
 }
 
-@media (max-width: 123.25em) {
+@media (max-width: 1980) {
     .n_w-h {
         max-width: 1200px;
     }   
