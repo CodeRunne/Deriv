@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/423.5b8d23fb.chunk.js","mappings":"mKAWA,MANA,WACE,OACE","sources":["pages/Careers/Careers.jsx"],"sourcesContent":["import React from 'react'\r\n\r\n// Stylesheet\r\nimport './Careers.css';\r\n\r\nfunction Careers() {\r\n  return (\r\n    <div>Careers</div>\r\n  )\r\n}\r\n\r\nexport default Careers"],"names":[],"sourceRoot":""}

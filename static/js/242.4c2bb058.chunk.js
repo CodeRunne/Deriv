@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkderiv=self.webpackChunkderiv||[]).push([[242],{242:function(e,r,n){n.r(r),n.d(r,{default:function(){return i}});n(791);var u=n(184);var i=function(){return(0,u.jsx)("div",{children:"WhoWeAre"})}}}]);
+//# sourceMappingURL=242.4c2bb058.chunk.js.map

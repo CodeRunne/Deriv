@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkderiv=self.webpackChunkderiv||[]).push([[214],{214:function(r,e,n){n.r(e),n.d(e,{default:function(){return t}});n(791);var u=n(184);var t=function(){return(0,u.jsx)("div",{children:"Partners"})}}}]);
+//# sourceMappingURL=214.13264766.chunk.js.map

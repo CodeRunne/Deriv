@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/442.ddd13ad5.chunk.js","mappings":"mKAWA,MANA,WACE,OACE","sources":["pages/Contact/Contact.jsx"],"sourcesContent":["import React from 'react'\r\n\r\n// Stylesheet\r\nimport './Contact.css';\r\n\r\nfunction Contact() {\r\n  return (\r\n    <div>Contact</div>\r\n  )\r\n}\r\n\r\nexport default Contact"],"names":[],"sourceRoot":""}

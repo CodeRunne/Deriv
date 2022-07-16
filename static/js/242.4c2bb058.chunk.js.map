@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/242.4c2bb058.chunk.js","mappings":"mKAWA,MANA,WACE,OACE","sources":["pages/WhoWeAre/WhoWeAre.jsx"],"sourcesContent":["import React from 'react'\r\n\r\n// Stylesheet\r\nimport './WhoWeAre.css';\r\n\r\nfunction WhoWeAre() {\r\n  return (\r\n    <div>WhoWeAre</div>\r\n  )\r\n}\r\n\r\nexport default WhoWeAre"],"names":[],"sourceRoot":""}
