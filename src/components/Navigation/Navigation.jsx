@@ -14,7 +14,6 @@ import './Navigation.css';
 function Navigation() {
   const [navColor, setNavColor] = useState(false);
   const [navOptionButton, setNavOptionButton] = useState(false);
-  const [screenWidth, setScreenWidth] = useState(0);
 
   function changeNavColor() {
     let Y = window.scrollY;
