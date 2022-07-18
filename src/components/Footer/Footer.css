@@ -103,6 +103,10 @@
     width: auto;
 }
 
+@media (max-width: 950px) {
+    .footer__links__wrapper { display: none; }
+}
+
 @media (max-width: 1440px) {
     .footer__wrapper { max-width: 84%; }
 }

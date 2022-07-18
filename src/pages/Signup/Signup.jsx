@@ -9,6 +9,7 @@ import FormInputs from '../../components/FormInputs/FormInputs';
 import CustomButton from '../../components/CustomButton/CustomButton';
 import AccountNote from '../../components/AccountNote/AccountNote';
 import ValidateUsers from '../../Auth/ValidateUsers';
+import Checkbox from '../../components/Checkbox/Checkbox';
 
 function Signup() {
   const [user, setUser] = useState({
@@ -20,19 +21,20 @@ function Signup() {
 
   function handleChange({ target }) {
     const { name, value } = target;
+    const checkCheckboxType = (user.checkbox === false) ? true : false;
 
-    setUser({...user, [name]: value});
+    const inputValues = (name === "checkbox") ? checkCheckboxType : value;
+
+    setUser({...user, [name]: inputValues});
   }
   
   function handleBlur() {
     setError(ValidateUsers(user));
   }
 
-  // function deleteInputValue({ target }) {
-  //   const { name } = target;
-
-  //   setUser({...user, [name]: '' })
-  // }
+  function deleteInputValue(value) {
+    setUser({...user, [`${value}`]: '' })
+  }
 
   // Document Title
   document.title = "Easy And Free Signup | Online Trading | Deriv.com"; 
@@ -78,6 +80,7 @@ function Signup() {
                   name="email"
                   handleChange={handleChange}
                   handleBlur={handleBlur}
+                  deleteInputValue={deleteInputValue}
                   value={user.email}
                   error={error.email ? error.email : ''}
                   placeholder="example@gmail.com"
@@ -86,18 +89,17 @@ function Signup() {
               />
 
               {/* Form Container Form Email Input */}
-              <FormInputs
-                  formid="txtCheck" 
-                  type="checkbox"
-                  name="checkbox"
-                  handleChange={handleChange}
-                  handleBlur={handleBlur}
-                  value={user.checkbox}
-                  label="checkbox"
+              <Checkbox 
+                formid="txtCheck" 
+                name="checkbox"
+                handleChange={handleChange}
+                handleBlur={handleBlur}
+                value={user.checkbox}
+                label="checkbox"
               />
               
               {/* Form Submit Button */}
-              <CustomButton type="submit" ids="signup__form__submitButton" helperClass="opq" btn_bg>Create demo account</CustomButton>
+              <CustomButton type="submit" ids="signup__form__submitButton" helperClass={` opq ${Object.keys(error).length !== 0 ? "show" : ""} `} btn_bg>Create demo account</CustomButton>
 
               <p className="typography account__policy">
                 By pressing “Create demo account”, you confirm that you are 18 or older. You understand that we may use your email address to send you information about Deriv products and services as well as market news. You can always unsubscribe from these emails in your account settings. For more information, please take a look at Deriv’s <Link to="/trc/security-and-privacy.pdf" target="_blank" rel="noopener noreferrer" size="1.2rem" color="red" className="localized_link">Security and privacy</Link> 

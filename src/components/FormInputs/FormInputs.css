@@ -135,41 +135,6 @@ input.form-input:-webkit-autofill ~ .form-label {
 
 input.form-input:not(:placeholder-shown) ~ .form-input-button { display: block; }
 
-.form-check-group {
-    font-weight: normal;
-    line-height: 1px;
-    margin-top: 5px;
-    margin-bottom: 0px;
-}
-
-.form-check-box {
-    display: inline-block;
-    vertical-align: text-bottom;
-}
-
-.form-check {
-    border: 0px;
-    clip: rect(0px, 0px, 0px, 0px);
-    position: absolute;
-}
-
-.form-check-svg {
-    display: inline-block;
-    width: 1.6rem;
-    height: 1.6rem;
-    background: rgba(255, 255, 255, 0);
-    border: 2px solid var(--color-grey-5);
-    margin-right: 0.8rem;
-}
-
-.form-check-svg svg {
-    fill: none;
-    stroke: var(--color-white);
-    stroke-width: 4px;
-    background-color: var(--color-red);
-    visibility: hidden;
-}
-
 .form-error {
     color: var(--color-red);
     font-size: 1.2rem;

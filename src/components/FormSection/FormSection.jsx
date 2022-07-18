@@ -9,6 +9,7 @@ import CustomButton from '../CustomButton/CustomButton';
 import FormInputs from '../FormInputs/FormInputs';
 
 import BannerPhone from '../../assets/static/images/banner-phone.png'
+import Checkbox from '../Checkbox/Checkbox';
 
 function FormSection() {
   const [email, setEmail] = useState('');
@@ -48,8 +49,7 @@ function FormSection() {
                         {/* Form Section Checkbox */}
                         <div className="formSection__checkbox">
                             {/* Sign Up Email Input */}
-                            <FormInputs
-                                type="checkbox"
+                            <Checkbox 
                                 name="checkbox"
                                 formid="txtCheckbox"
                                 value={ checked }

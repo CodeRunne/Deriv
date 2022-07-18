@@ -100,6 +100,8 @@ p.secondary {
     box-shadow: rgb(0,0,0,.1) 0px 1.6rem 2rem 0px;
 }
 
+.signin__form__register .form-check-group { margin-top: 10px; }
+
 #signup__form__submitButton {
     font-size: 1.4rem;
     margin-bottom: 0.4rem;

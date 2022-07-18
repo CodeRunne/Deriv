@@ -190,18 +190,6 @@
     font-size: 4.2rem;
 }
 
-.agreement-label {
-    font-size: 14px;
-    color: black;
-}
-
-.agreement-label a {
-    color: var(--color-red);
-    line-height: 1.5;
-    font-weight: normal;
-    font-size: 14px;
-}
-
 @media (max-width: 90em) {
     .formSection__container { width: 84%; }
 }

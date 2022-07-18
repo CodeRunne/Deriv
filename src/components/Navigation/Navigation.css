@@ -41,7 +41,10 @@
     max-width: 30rem;
 }
 
-.navigation__logo__container > button { display: none; }
+.navigation__logo__container > button { 
+    display: none; 
+    margin-right: 2rem;
+}
 
 .navigation__logo__container > button svg {
     width: 16px;
@@ -51,7 +54,6 @@
     text-decoration: none;
     max-width: 16rem;
     width: 100%;
-    margin-left: 2rem;
 }
 
 .navigation__logo__imageLink > figure {
@@ -132,7 +134,13 @@
 .navigation__options.show button:last-child { opacity: 1; }
 
 @media (max-width: 61.9375em) {
-    .navigation__items,
+    .navigation__items { display: none; }
+    .navigation__logo__container > button { display: block; }
+}
+
+@media (max-width: 1200px) {
+    .navigation__wrapper { width: 95% !important; }
+    .navigation__options { transform: translateX(0px); }
     .navigation__options > button:last-child { display: none; }
 }
 
@@ -141,7 +149,6 @@
         width: 90%;
     }  
 
-    .navigation__logo__container > button { display: block; }
 }
 
 @media (max-width: 1980) {

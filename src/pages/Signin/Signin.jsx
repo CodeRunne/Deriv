@@ -30,7 +30,6 @@ function Signin() {
   }
 
   function handleBlur() {
-    console.log(userValues, errors);
     // ValidateUser
     setErrors(ValidateUsers(userValues));
   } 
@@ -41,8 +40,6 @@ function Signin() {
 
   // Page Title
   document.title = "Log in | Deriv.com";
-
-  console.log(errors);  
 
   return (
     <>

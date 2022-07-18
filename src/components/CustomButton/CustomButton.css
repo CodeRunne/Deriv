@@ -63,3 +63,8 @@
     pointer-events: none;
     opacity: .32;
 }
+
+.button.show {
+    pointer-events: inherit !important;
+    opacity: 1;
+}

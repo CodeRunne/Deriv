@@ -17,7 +17,29 @@
 }
 
 .market__collection {
+    width: 90%;
     max-width: 100%;
+}
+
+.market__collection__item {
+    margin: 0 auto;
+}
+
+.market__item__wrapper {
+    flex-shrink: 0;
+    width: 282px;
+    height: 325px;
+    margin-right: 24px;
+    position: relative;
+    color: var(--color-white);
+    background-color: var(--color-red);
+    font-size: 2rem;
+    border-radius: .3rem;
+    /* left: 125 */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel {
@@ -33,12 +55,9 @@
     height: 100%;
     display: flex;
     will-change: transform;
+    overflow-x: scroll;
 }
 
-.carousel__item {
-    width: 282px;
-    height: auto;
-    margin-right: 24px;
-    position: relative;
-    /* left: 125 */
+.carousel__slider::-webkit-scrollbar {
+    width: 0;
 }
